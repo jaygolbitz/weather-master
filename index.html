@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Set a page title -->
+  <title>Flag Pattern Genarator</title>
+
+  <!-- Site Styles -->
+  <link rel="stylesheet" href="/css/tachyons.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+
+  <div class="fl w-100 pt4 ph3 jones tc">
+
+    <img src="images/logo.png" class="pic w-60 w-20-ns" alt="">
+    <h1 class="pb4-ns ph4 f3 f1-ns text1 white">WEATHER BASED FLAG GENERATOR</h1>
+    <form id="location-search" class="">
+      <h2 class="A pb4">
+            <span class="f4 f3-ns white text1 ">
+              CREATE A FLAG FOR:
+            </span>
+            <input type="text" id="area" value="Boston" class="w-100 w-20-ns">
+          </h2>
+    </form>
+
+    <div class="text1 pb3 white ">
+      GENERATED FLAG:
+    </div>
+
+    <div class="11 fl w-20 pa2 h4 h5-ns o-0">
+
+    </div>
+    <div class="item2 bl light-silver bw4 fl w-20 pa2 h4 h5-ns">
+
+    </div>
+    <div class="item3 fl w-20 pa2 h4 h5-ns ">
+
+    </div>
+    <div class="item4 fl w-20 pa2 h4 h5-ns ">
+
+    </div>
+    <div class="1 fl w-20 pa2 h4 h5-ns o-0">
+
+    </div>
+    <div class="11 fl w-20 pa2 h4 h5-ns">
+
+    </div>
+    <div class="bl bw4 light-silver fl w-20 pa2 h4 h5-ns ">
+
+    </div>
+    <div class="fl w-20 pa2 h4 h5-ns">
+
+    </div>
+    <div class="fl w-20 pa2 h4 h5-ns ">
+
+    </div>
+    <div class="1 fl w-20 pa2 h4 h5-ns">
+
+    </div>
+    <div class="11 fl w-20 pa2 h4 h5-ns">
+
+    </div>
+    <div class="bl bw4 light-silver fl w-20 pa2 h4 h5-ns ">
+
+    </div>
+    <div class="fl w-20 pa2 h4 h5-ns text1">
+
+    </div>
+    <div class="fl w-20 pa2 h4 h5-ns">
+
+    </div>
+    <div class="1 fl w-20 pa2 h4 h5-ns">
+
+    </div>
+  </div>
+
+
+
+  <!-- If there is an error, this box is shown. 'dn' is the only required class -->
+  <div id="error" class="dn bg-red white pa4 fixed bottom-0 w-100">
+    Sorry, we couldn't find that city.
+  </div>
+
+
+
+
+  <!-- Content -->
+
+
+
+  <div class="jones2 flex flex-wrap pa4 ttu">
+    <div class="w-100 w-third-l pt6-ns tc">
+
+      <span id="location-name" class="f1 f1-2 white ttu text1 yellow"></span>
+
+    </div>
+
+    <div class="w-100 w-third-l tc text1 ttu pb5-nss">
+      <h2 class="f7 f3-ns white pb2 yellow">Temperature</h2>
+      <span id="temp" class="jones3 pa3 ba bw2 white"></span>
+
+
+    </div>
+
+    <div class="w-100 w-50-m w-third-l pt6-ns tc pt4">
+
+
+      <span id="condition-description" class="f1 f1-2 white ttu text1 yellow"></span></p>
+
+    </div>
+  </div>
+
+  </div>
+
+  <!-- Site JavaScript -->
+  <script src="/javascript/toggleClass.js" charset="utf-8"></script>
+  <script src="/javascript/main.js" charset="utf-8"></script>
+  <script src="/javascript/weather.js" charset="utf-8"></script>
+</body>
+
+</html>

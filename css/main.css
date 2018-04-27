@@ -33,6 +33,9 @@
 .drizzle .item3 {
   background: DimGrey;
 }
+.dust .item3 {
+  background: #faebd7;
+}
 .rain .item3 {
   background: DarkBlue;
 }
